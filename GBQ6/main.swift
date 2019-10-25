@@ -75,13 +75,13 @@ struct Queque<T>{
 
 var q = Queque<Int>()
 
-var ar = [1,2,3,4]
+var ar = [ 1,2,3,4 ]
 
 q.push(10)
 q.push(12)
 q.push(13)
 
-print(q.filter{ $0 > 11})
+print(q.filter{ $0 > 11 })
 print(q)
-q.removeAll({$0 < 13})
+q.removeAll({ $0 < 13 })
 print(q)
